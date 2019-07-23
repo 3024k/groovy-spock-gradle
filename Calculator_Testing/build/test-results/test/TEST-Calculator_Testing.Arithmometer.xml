@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculator_Testing.Arithmometer" tests="2" skipped="0" failures="1" errors="0" timestamp="2019-07-17T08:27:17" hostname="Admin-PC" time="0.675">
+  <properties/>
+  <testcase name="two plus two should equal four" classname="Calculator_Testing.Arithmometer" time="0.494">
+    <failure message="Condition not satisfied:&#10;&#10;result == 5&#10;|      |&#10;4      false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == 5
+|      |
+4      false
+
+	at Calculator_Testing.Arithmometer.two plus two should equal four(Arithmometer.groovy:17)
+</failure>
+  </testcase>
+  <testcase name="zero minus minus-one should equal one" classname="Calculator_Testing.Arithmometer" time="0.181"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
